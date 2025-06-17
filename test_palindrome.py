@@ -36,3 +36,8 @@ def test_call_with_abc():
 def test_call_with_laval():
     """Assert string containing laval returns True"""
     assert palindrome.is_palindrome('laval') is True
+
+
+def test_call_with_toronto():
+    """Assert string containing toronto returns False"""
+    assert palindrome.is_palindrome('toronto') is False
