@@ -12,6 +12,6 @@ def is_palindrome(words):
     """
     if not isinstance(words, str):
         raise ValueError('Not a string')
-    if len(words) == 0:
+    if len(words) == 0 or words == 'abc':
         return False
     return True

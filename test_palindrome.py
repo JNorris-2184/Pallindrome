@@ -26,3 +26,8 @@ def test_call_with_a():
 def test_call_with_bb():
     """Assert string containing bb returns True"""
     assert palindrome.is_palindrome('bb') is True
+
+
+def test_call_with_abc():
+    """Assert string containing abc returns False"""
+    assert palindrome.is_palindrome('abc') is False
