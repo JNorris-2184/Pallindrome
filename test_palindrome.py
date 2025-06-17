@@ -21,3 +21,8 @@ def test_empty_string():
 def test_call_with_a():
     """Assert string containing a returns True"""
     assert palindrome.is_palindrome('a') is True
+
+
+def test_call_with_bb():
+    """Assert string containing bb returns True"""
+    assert palindrome.is_palindrome('bb') is True
