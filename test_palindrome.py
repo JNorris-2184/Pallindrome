@@ -11,3 +11,8 @@ def test_invalid_datatype():
     with pytest.raises(Exception) as excinfo:
         palindrome.is_palindrome(3)
     assert str(excinfo.value) == 'Not a string'
+
+
+def test_empty_string():
+    """Assert empty string returns False"""
+    assert palindrome.is_palindrome('') is False
