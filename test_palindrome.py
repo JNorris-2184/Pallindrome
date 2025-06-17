@@ -16,3 +16,8 @@ def test_invalid_datatype():
 def test_empty_string():
     """Assert empty string returns False"""
     assert palindrome.is_palindrome('') is False
+
+
+def test_call_with_a():
+    """Assert string containing a returns True"""
+    assert palindrome.is_palindrome('a') is True
