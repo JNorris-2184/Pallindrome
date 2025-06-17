@@ -31,3 +31,8 @@ def test_call_with_bb():
 def test_call_with_abc():
     """Assert string containing abc returns False"""
     assert palindrome.is_palindrome('abc') is False
+
+
+def test_call_with_laval():
+    """Assert string containing laval returns True"""
+    assert palindrome.is_palindrome('laval') is True
