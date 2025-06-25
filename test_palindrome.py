@@ -46,3 +46,5 @@ def test_call_with_toronto():
 def test_call_with_sentence():
     """Assert string containing laval returns True"""
     assert palindrome.is_palindrome('Able was I ere I saw Elba') is True
+    assert palindrome.is_palindrome('Hello World') is False
+    assert palindrome.is_palindrome('abcd dcba') is True
